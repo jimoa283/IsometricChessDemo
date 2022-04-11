@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888dcb6b60c2b264f952e8cd02ab1ea0, type: 3}
+  m_Name: Test3
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: 5a9aba77-2f04-4ff3-93ae-22a01f3847a9
+    BasePortName: OutPut
+    TargetNodeGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    TargetPortName: Input
+  - BaseNodeGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    BasePortName: efbb1db4-8167-4ef2-a42f-9b30b0efdb5c
+    TargetNodeGuid: 02561b74-f97a-48f0-875f-b0e984dcf8a4
+    TargetPortName: Input
+  - BaseNodeGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    BasePortName: 0170bec8-0320-48ef-9c42-c6ab2c6ecd93
+    TargetNodeGuid: 2e7e7a25-11fb-47f6-9ac5-d2c13a51bfb5
+    TargetPortName: Input
+  - BaseNodeGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    BasePortName: 8b5ba4fc-9c03-4e72-b436-7c82d307b5d8
+    TargetNodeGuid: 8b4f92f5-ef01-4f46-8836-3e5bbe28196a
+    TargetPortName: Input
+  - BaseNodeGuid: 2e7e7a25-11fb-47f6-9ac5-d2c13a51bfb5
+    BasePortName: Output
+    TargetNodeGuid: 53f35609-e54d-4094-9aa1-2e20a32b073d
+    TargetPortName: Input
+  - BaseNodeGuid: 8b4f92f5-ef01-4f46-8836-3e5bbe28196a
+    BasePortName: Output
+    TargetNodeGuid: 53f35609-e54d-4094-9aa1-2e20a32b073d
+    TargetPortName: Input
+  - BaseNodeGuid: 02561b74-f97a-48f0-875f-b0e984dcf8a4
+    BasePortName: Output
+    TargetNodeGuid: 6781236c-753c-4ad3-81dc-d54e3c94e7e3
+    TargetPortName: Input
+  - BaseNodeGuid: 6781236c-753c-4ad3-81dc-d54e3c94e7e3
+    BasePortName: Continue
+    TargetNodeGuid: 98f813ec-a817-4a95-9ca5-8dc7e03ed892
+    TargetPortName: Input
+  - BaseNodeGuid: 98f813ec-a817-4a95-9ca5-8dc7e03ed892
+    BasePortName: Output
+    TargetNodeGuid: 7221dac6-2e38-43e5-b969-8061746f148d
+    TargetPortName: Input
+  - BaseNodeGuid: 53f35609-e54d-4094-9aa1-2e20a32b073d
+    BasePortName: Continue
+    TargetNodeGuid: 7221dac6-2e38-43e5-b969-8061746f148d
+    TargetPortName: Input
+  StartDatas:
+  - NodeGuid: 5a9aba77-2f04-4ff3-93ae-22a01f3847a9
+    Position: {x: -352, y: 244}
+  EndDatas:
+  - NodeGuid: 7221dac6-2e38-43e5-b969-8061746f148d
+    Position: {x: 1314, y: 59}
+  BranchDatas: []
+  DialogueDatas:
+  - NodeGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    Position: {x: -188, y: 244}
+    DialogueData_Name:
+      Name:
+        Value: NPC1
+    DialogueData_Text:
+      Text:
+        Value: "1+1=\uFF1F"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports:
+    - PortGuid: efbb1db4-8167-4ef2-a42f-9b30b0efdb5c
+      inputGuid: 02561b74-f97a-48f0-875f-b0e984dcf8a4
+      outputGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    - PortGuid: 0170bec8-0320-48ef-9c42-c6ab2c6ecd93
+      inputGuid: 2e7e7a25-11fb-47f6-9ac5-d2c13a51bfb5
+      outputGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+    - PortGuid: 8b5ba4fc-9c03-4e72-b436-7c82d307b5d8
+      inputGuid: 8b4f92f5-ef01-4f46-8836-3e5bbe28196a
+      outputGuid: e9ee2335-dd22-422e-b06e-ad5f0580e4a4
+  - NodeGuid: 53f35609-e54d-4094-9aa1-2e20a32b073d
+    Position: {x: 599, y: 187}
+    DialogueData_Name:
+      Name:
+        Value: NPC1
+    DialogueData_Text:
+      Text:
+        Value: "\u9519"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports: []
+  - NodeGuid: 6781236c-753c-4ad3-81dc-d54e3c94e7e3
+    Position: {x: 566, y: -138}
+    DialogueData_Name:
+      Name:
+        Value: NPC1
+    DialogueData_Text:
+      Text:
+        Value: "\u5BF9"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports: []
+  ChoiceDatas:
+  - NodeGuid: 8b4f92f5-ef01-4f46-8836-3e5bbe28196a
+    Position: {x: 211, y: 360}
+    Text:
+      Value: 4
+    AudioClip: {fileID: 0}
+    ConditionChecks: []
+  - NodeGuid: 2e7e7a25-11fb-47f6-9ac5-d2c13a51bfb5
+    Position: {x: 211, y: 187}
+    Text:
+      Value: 3
+    AudioClip: {fileID: 0}
+    ConditionChecks: []
+  - NodeGuid: 02561b74-f97a-48f0-875f-b0e984dcf8a4
+    Position: {x: 244, y: -72}
+    Text:
+      Value: 2
+    AudioClip: {fileID: 0}
+    ConditionChecks: []
+  EventDatas:
+  - NodeGuid: 98f813ec-a817-4a95-9ca5-8dc7e03ed892
+    Position: {x: 938, y: -117}
+    Container_Event:
+      Value: {fileID: 11400000, guid: 177ac80a0b0337546ac3f4b792d3673d, type: 2}

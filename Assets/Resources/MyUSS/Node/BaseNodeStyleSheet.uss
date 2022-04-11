@@ -1,0 +1,50 @@
+﻿.node #title{
+	background-color: rgb(29,115,57);
+}
+
+#node-border{
+	background-color: rgb(0,0,0);
+}
+
+.Label{
+	margin-top:5px;
+	margin-left:4px;
+	font-size: 15px;
+}
+
+.PortName{
+	display:none;
+}
+
+#node-border #title{
+	height: 30px;
+}
+
+
+.removeBtn{
+	margin-left:auto;
+}
+
+.unity-text-field__placeholder > .unity-base-text-field__input {
+    color: #969696
+}
+
+.TextBox{
+	width:260px;
+	white-space: normal;
+}
+
+.Hide{
+	display:none;
+}
+.Show{
+	display:Flex;
+}
+
+.ConditionCheckFirstBox{
+   flex-direction: row;
+} 
+
+.ConditionCheckField{
+  min-width:240px;
+}

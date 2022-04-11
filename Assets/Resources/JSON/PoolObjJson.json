@@ -1,0 +1,118 @@
+[
+  {
+    "PoolObjName": "actionRange",
+    "PoolObjPath": "PoolObj/RangeShow/actionRange"
+  },
+  {
+    "PoolObjName": "directionRange",
+    "PoolObjPath": "PoolObj/RangeShow/directionRange"
+  },
+  {
+    "PoolObjName": "moveRange",
+    "PoolObjPath": "PoolObj/RangeShow/moveRange"
+  },
+  {
+    "PoolObjName": "pathObj",
+    "PoolObjPath": "PoolObj/RangeShow/pathObj"
+  },
+  {
+    "PoolObjName": "setRange",
+    "PoolObjPath": "PoolObj/RangeShow/setRange"
+  },
+  {
+    "PoolObjName": "effectRange",
+    "PoolObjPath": "PoolObj/RangeShow/effectRange"
+  },
+  {
+    "PoolObjName": "riskMoveRange",
+    "PoolObjPath": "PoolObj/RangeShow/riskMoveRange"
+  },
+  {
+    "PoolObjName": "HealthChangeNumText",
+    "PoolObjPath": "PoolObj/SpecialTAI/HealthChangeNumText"
+  },
+  {
+    "PoolObjName": "ExpTip",
+    "PoolObjPath": "PoolObj/SpecialTAI/ExpTip"
+  },
+  {
+    "PoolObjName": "SpecialBattleTip",
+    "PoolObjPath": "PoolObj/SpecialTAI/SpecialBattleTip"
+  },
+  {
+    "PoolObjName": "LevelUpTip",
+    "PoolObjPath": "PoolObj/SpecialTAI/LevelUpTip"
+  },
+  {
+    "PoolObjName": "SpeakUI",
+    "PoolObjPath": "PoolObj/SpecialTAI/SpeakUI"
+  },
+  {
+    "PoolObjName": "SelectAnswerUI",
+    "PoolObjPath": "PoolObj/SpecialTAI/SelectAnswerUI"
+  },
+  {
+    "PoolObjName": "SOSpeakUI",
+    "PoolObjPath": "PoolObj/SpecialTAI/SOSpeakUI"
+  },
+  {
+    "PoolObjName": "SOSelectAnswerUI",
+    "PoolObjPath": "PoolObj/SpecialTAI/SOSelectAnswerUI"
+  },
+  {
+    "PoolObjName": "ValueChangeTip",
+    "PoolObjPath": "PoolObj/SpecialTAI/ValueChangeTip"
+  },
+  {
+    "PoolObjName": "Boom",
+    "PoolObjPath": "PoolObj/VFXObj/Boom"
+  },
+  {
+    "PoolObjName": "Impact",
+    "PoolObjPath": "PoolObj/VFXObj/Impact"
+  },
+  {
+    "PoolObjName": "Slash",
+    "PoolObjPath": "PoolObj/VFXObj/Slash"
+  },
+  {
+    "PoolObjName": "Arrow",
+    "PoolObjPath": "PoolObj/VFXObj/Arrow"
+  },
+  {
+    "PoolObjName": "IceBlock",
+    "PoolObjPath": "PoolObj/Block/IceBlock"
+  },
+  {
+    "PoolObjName": "Fire",
+    "PoolObjPath": "PoolObj/Block/Fire"
+  },
+  {
+    "PoolObjName": "Embers",
+    "PoolObjPath": "PoolObj/Block/Embers"
+  },
+  {
+    "PoolObjName": "FireEffect",
+    "PoolObjPath": "PoolObj/BUFFEffectObj/FireEffect"
+  },
+  {
+    "PoolObjName": "CantMoveEffect",
+    "PoolObjPath": "PoolObj/BUFFEffectObj/CantMoveEffect"
+  },
+  {
+    "PoolObjName": "BurstInVFX",
+    "PoolObjPath": "PoolObj/SimpleVFX/BurstInVFX"
+  },
+  {
+    "PoolObjName": "Pocket1",
+    "PoolObjPath": "Pocket/Pocket1"
+  },
+  {
+    "PoolObjName": "MainEventIcon",
+    "PoolObjPath": "PoolObj/MapEventIcon/MainEventIcon"
+  },
+  {
+    "PoolObjName": "SideEventIcon",
+    "PoolObjPath": "PoolObj/MapEventIcon/SideEventIcon"
+  }
+]

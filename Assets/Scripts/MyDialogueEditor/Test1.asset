@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888dcb6b60c2b264f952e8cd02ab1ea0, type: 3}
+  m_Name: Test1
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: b1e4a691-01f2-42ef-853a-09f3df4501d2
+    BasePortName: OutPut
+    TargetNodeGuid: b5994692-57d8-48fd-b7cc-9329dd585241
+    TargetPortName: Input
+  - BaseNodeGuid: b5994692-57d8-48fd-b7cc-9329dd585241
+    BasePortName: True
+    TargetNodeGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+    TargetPortName: Input
+  - BaseNodeGuid: b5994692-57d8-48fd-b7cc-9329dd585241
+    BasePortName: False
+    TargetNodeGuid: 11f23a64-eba3-4e52-8f79-95667a5749d4
+    TargetPortName: Input
+  - BaseNodeGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+    BasePortName: 1a8edcca-d15c-473e-8472-d2711bb85b8b
+    TargetNodeGuid: e44c62c3-bf7f-416b-94e6-082d47f28100
+    TargetPortName: Input
+  - BaseNodeGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+    BasePortName: 0cf78e93-0f5b-43a8-8ab4-532bcbca57e5
+    TargetNodeGuid: 944c6025-530f-491f-92f1-fd5c48ee0017
+    TargetPortName: Input
+  - BaseNodeGuid: e44c62c3-bf7f-416b-94e6-082d47f28100
+    BasePortName: Output
+    TargetNodeGuid: abcbbbc0-780e-460a-994a-1a51830745f3
+    TargetPortName: Input
+  - BaseNodeGuid: 944c6025-530f-491f-92f1-fd5c48ee0017
+    BasePortName: Output
+    TargetNodeGuid: ca091673-4707-411c-8a70-c988faedec64
+    TargetPortName: Input
+  - BaseNodeGuid: abcbbbc0-780e-460a-994a-1a51830745f3
+    BasePortName: Output
+    TargetNodeGuid: f1b1a633-38bc-4728-adb4-2641985cc526
+    TargetPortName: Input
+  StartDatas:
+  - NodeGuid: b1e4a691-01f2-42ef-853a-09f3df4501d2
+    Position: {x: 34, y: 197}
+  EndDatas:
+  - NodeGuid: 11f23a64-eba3-4e52-8f79-95667a5749d4
+    Position: {x: 574, y: 400}
+  - NodeGuid: ca091673-4707-411c-8a70-c988faedec64
+    Position: {x: 1594, y: 270}
+  - NodeGuid: f1b1a633-38bc-4728-adb4-2641985cc526
+    Position: {x: 1706, y: 45}
+  BranchDatas:
+  - NodeGuid: b5994692-57d8-48fd-b7cc-9329dd585241
+    Position: {x: 183, y: 186}
+    trueGuidNode: 87038f14-ead1-4c56-842f-4512de74d0fd
+    falseGuidNode: 11f23a64-eba3-4e52-8f79-95667a5749d4
+    conditionCheckSOs:
+    - Container_ConditionCheckSO:
+        Value: {fileID: 11400000, guid: eb8874fde81c72e4ba7550254339355e, type: 2}
+      Container_ConditionAddType:
+        Value: 0
+    - Container_ConditionCheckSO:
+        Value: {fileID: 0}
+      Container_ConditionAddType:
+        Value: 0
+  DialogueDatas:
+  - NodeGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+    Position: {x: 598, y: 58}
+    DialogueData_Name:
+      Name:
+        Value: jfljfdlsfdjlsa
+    DialogueData_Text:
+      Text:
+        Value: 'sfdfjkasjf
+
+          afjsafdjsfls'
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports:
+    - PortGuid: 1a8edcca-d15c-473e-8472-d2711bb85b8b
+      inputGuid: e44c62c3-bf7f-416b-94e6-082d47f28100
+      outputGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+    - PortGuid: 0cf78e93-0f5b-43a8-8ab4-532bcbca57e5
+      inputGuid: 944c6025-530f-491f-92f1-fd5c48ee0017
+      outputGuid: 87038f14-ead1-4c56-842f-4512de74d0fd
+  ChoiceDatas:
+  - NodeGuid: e44c62c3-bf7f-416b-94e6-082d47f28100
+    Position: {x: 1062, y: -118}
+    Text:
+      Value: fjafjdlasjfl;
+    AudioClip: {fileID: 0}
+    ConditionChecks:
+    - Container_ConditionCheckSO:
+        Value: {fileID: 11400000, guid: eb8874fde81c72e4ba7550254339355e, type: 2}
+      Container_ConditionAddType:
+        Value: 0
+  - NodeGuid: 944c6025-530f-491f-92f1-fd5c48ee0017
+    Position: {x: 1052, y: 178}
+    Text:
+      Value: fdsjfkklasjfjsla;fl;asf
+    AudioClip: {fileID: 0}
+    ConditionChecks:
+    - Container_ConditionCheckSO:
+        Value: {fileID: 11400000, guid: eb8874fde81c72e4ba7550254339355e, type: 2}
+      Container_ConditionAddType:
+        Value: 0
+  EventDatas:
+  - NodeGuid: abcbbbc0-780e-460a-994a-1a51830745f3
+    Position: {x: 1481, y: 10}
+    Container_Event:
+      Value: {fileID: 11400000, guid: b3d3a5c0bc4b67a4393ebf958a2129af, type: 2}

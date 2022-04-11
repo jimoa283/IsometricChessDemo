@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "SaveCheckWindow",
+    "CheckWindowInfo": "确认存档吗？",
+    "ButtonTextList": ["存档","取消"]
+  },
+  {
+    "Name": "LoadCheckWindow",
+    "CheckWindowInfo": "确认读档吗？",
+    "ButtonTextList": [ "读档", "取消" ]
+  },
+  {
+    "Name": "ExitExploreCheckWindow",
+    "CheckWindowInfo": "是否结束探索？",
+    "ButtonTextList": [ "是", "否" ]
+  },
+  {
+    "Name": "ExitGarrisonCheckWindow",
+    "CheckWindowInfo": "是否离开驻扎所？",
+    "ButtonTextList": [ "是", "否" ]
+  },
+  {
+    "Name": "ChangeToStreetCheckWindow",
+    "CheckWindowInfo": "是否到街上去？",
+    "ButtonTextList": [ "是", "否" ]
+  },
+  {
+    "Name": "ChangeToVillageHallCheckWindow",
+    "CheckWindowInfo": "是否回到议事堂？",
+    "ButtonTextList": [ "是", "否" ]
+  }
+]

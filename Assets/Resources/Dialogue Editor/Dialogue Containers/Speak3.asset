@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888dcb6b60c2b264f952e8cd02ab1ea0, type: 3}
+  m_Name: Speak3
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: e5eb6e5c-dc68-4ea1-8285-159ea1c04a0a
+    BasePortName: OutPut
+    TargetNodeGuid: 239815ae-ba90-4be2-9643-9ec626e0f13f
+    TargetPortName: Input
+  - BaseNodeGuid: 239815ae-ba90-4be2-9643-9ec626e0f13f
+    BasePortName: Continue
+    TargetNodeGuid: db88919d-2520-4d46-b2ca-faa2f7082082
+    TargetPortName: Input
+  StartDatas:
+  - NodeGuid: e5eb6e5c-dc68-4ea1-8285-159ea1c04a0a
+    Position: {x: 99, y: 155}
+  EndDatas:
+  - NodeGuid: db88919d-2520-4d46-b2ca-faa2f7082082
+    Position: {x: 660, y: 155}
+  BranchDatas: []
+  DialogueDatas:
+  - NodeGuid: 239815ae-ba90-4be2-9643-9ec626e0f13f
+    Position: {x: 266, y: 155}
+    DialogueData_Name:
+      Name:
+        Value: Li
+    DialogueData_Text:
+      Text:
+        Value: "\u7CDF\u7CD5\uFF0C\u6211\u4EEC\u5F97\u5FEB\u70B9\u51B2\u51FA\u53BB"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports: []
+  ChoiceDatas: []
+  EventDatas: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888dcb6b60c2b264f952e8cd02ab1ea0, type: 3}
+  m_Name: Speak1
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: 14cf9ac1-f283-470d-be11-5e1a05a56ec5
+    BasePortName: OutPut
+    TargetNodeGuid: 45235471-ed4b-4fde-9145-3063b00f104d
+    TargetPortName: Input
+  - BaseNodeGuid: 45235471-ed4b-4fde-9145-3063b00f104d
+    BasePortName: Continue
+    TargetNodeGuid: 42ed6fca-7aea-4d3b-aff2-68cf6ab2c345
+    TargetPortName: Input
+  StartDatas:
+  - NodeGuid: 14cf9ac1-f283-470d-be11-5e1a05a56ec5
+    Position: {x: 82, y: 202}
+  EndDatas:
+  - NodeGuid: 42ed6fca-7aea-4d3b-aff2-68cf6ab2c345
+    Position: {x: 668, y: 202}
+  BranchDatas: []
+  DialogueDatas:
+  - NodeGuid: 45235471-ed4b-4fde-9145-3063b00f104d
+    Position: {x: 290, y: 202}
+    DialogueData_Name:
+      Name:
+        Value: NPC1
+    DialogueData_Text:
+      Text:
+        Value: "\u5982\u679C\u73B0\u5728\u654C\u4EBA\u6765\u88AD\u51FB\u4F1A\u5F88\u9EBB\u70E6#\n\u8981\u8D76\u5FEB\u60F3\u597D\u5BF9\u7B56"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports: []
+  ChoiceDatas: []
+  EventDatas: []

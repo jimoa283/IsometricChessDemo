@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d0c200d482d5bd46b2886212be13a80, type: 3}
+  m_Name: GameConf
+  m_EditorClassIdentifier: 
+  moveRange: {fileID: 3575764681904793085, guid: dd3ccc7cbfb3e3846b048249366c7d26,
+    type: 3}
+  attackRange: {fileID: 6762057783022096446, guid: 242d2f947b1fae9428b5b2ef65bdc395,
+    type: 3}
+  treatRange: {fileID: 740994616387735773, guid: 7b383e243489bba42b6c31d9bbeb3c87,
+    type: 3}
+  directionRange: {fileID: 5873540273028079726, guid: b77a6eea52ba7b845b27ab997a69f511,
+    type: 3}
+  settingRange: {fileID: 7964970032948856642, guid: 424ee6a5b0ac00b4ab3f125f55d7c3a9,
+    type: 3}
+  OriObj: {fileID: 6445049188044311979, guid: 5929ef64bf7607747af53dbd5796b082, type: 3}
+  sortingLayerName:
+  - BG2
+  - BG3
+  - BG4
+  pieceSelectSlot: {fileID: 4284430904590554414, guid: 1c6b18e8ebc5ebb44a1399990bebf874,
+    type: 3}
+  expTip: {fileID: 2656029995430502427, guid: cfad68258dbec0143aad510e6e750824, type: 3}

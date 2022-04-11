@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888dcb6b60c2b264f952e8cd02ab1ea0, type: 3}
+  m_Name: Speak4
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: 245343c9-01b4-45cd-889d-cb1818559712
+    BasePortName: OutPut
+    TargetNodeGuid: 1893e232-a163-4c40-85c0-286fdcf0d1ad
+    TargetPortName: Input
+  - BaseNodeGuid: 1893e232-a163-4c40-85c0-286fdcf0d1ad
+    BasePortName: Continue
+    TargetNodeGuid: d1466d0b-b60a-439b-b60e-45b04066c159
+    TargetPortName: Input
+  StartDatas:
+  - NodeGuid: 245343c9-01b4-45cd-889d-cb1818559712
+    Position: {x: 93, y: 125}
+  EndDatas:
+  - NodeGuid: d1466d0b-b60a-439b-b60e-45b04066c159
+    Position: {x: 608, y: 125}
+  BranchDatas: []
+  DialogueDatas:
+  - NodeGuid: 1893e232-a163-4c40-85c0-286fdcf0d1ad
+    Position: {x: 267, y: 125}
+    DialogueData_Name:
+      Name:
+        Value: Wo
+    DialogueData_Text:
+      Text:
+        Value: "\u4E00\u9F13\u4F5C\u6C14\u628A\u4ED6\u4EEC\u90FD\u5E72\u6389\u5427"
+    DialogueData_Audio:
+      AudioClip: {fileID: 0}
+    DialogueData_Ports: []
+  ChoiceDatas: []
+  EventDatas: []

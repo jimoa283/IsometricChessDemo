@@ -1,0 +1,97 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="TopBar">
+        <uie:Toolbar style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 5px;">
+            <uie:ToolbarButton text="Equipment" display-tooltip-when-elided="true" name="EquipmentButton" style="-unity-text-align: upper-center;" />
+            <uie:ToolbarButton text="SKill" display-tooltip-when-elided="true" name="SkillButton" style="-unity-text-align: upper-center;" />
+        </uie:Toolbar>
+    </ui:VisualElement>
+    <ui:VisualElement name="Mid" style="flex-grow: 1; flex-direction: row;">
+        <ui:ListView focusable="true" style="flex-grow: 0; flex-shrink: 1; width: 150px; height: auto; border-top-width: 1px; border-right-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+        <ui:VisualElement name="ElementInfo" style="flex-grow: 1; border-left-width: 0; border-top-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+            <uie:Toolbar style="-unity-text-align: upper-left; height: 20px; justify-content: flex-end;">
+                <uie:ToolbarButton text="Save" display-tooltip-when-elided="true" name="SaveButton" style="-unity-text-align: middle-center;" />
+            </uie:Toolbar>
+            <ui:VisualElement name="General" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; flex-grow: 0; flex-shrink: 1; width: auto; height: auto; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: flex;">
+                <ui:Label text=" General" display-tooltip-when-elided="true" name="GeneralLabel" style="background-color: rgb(26, 26, 26); margin-left: 0; -unity-text-align: middle-left; display: flex;" />
+                <ui:VisualElement name="GeneralInfo" style="flex-grow: 1; flex-direction: row;">
+                    <ui:VisualElement name="PreviewArea" style="width: 100px; flex-shrink: 0; height: 100px; margin-left: 5px; margin-right: 5px; margin-top: 10px; margin-bottom: 5px; -unity-text-align: upper-left; background-image: none;" />
+                    <ui:VisualElement name="InfoArea" style="flex-grow: 1; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;">
+                        <uie:IntegerField label="ID" value="42" name="IDField" style="margin-bottom: 2px;" />
+                        <ui:TextField picking-mode="Ignore" label="Name" value="filler text" text="filler text" name="NameField" />
+                        <uie:ObjectField label="Icon" allow-scene-objects="true" name="IconField" />
+                        <uie:EnumField label="SkillType" value="Center" name="SkillTypeField" style="display: none;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="DescriptsionArea" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                <ui:Label text=" Description" display-tooltip-when-elided="true" style="background-color: rgb(26, 26, 26);" />
+                <ui:VisualElement>
+                    <ui:TextField value="filler text" text="dsdasfaf&#10;" max-length="8" multiline="true" name="DescriptionField" style="height: auto; -unity-text-align: upper-left; flex-direction: column; align-items: stretch; justify-content: flex-start; opacity: 1; white-space: nowrap;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ItemGeneralArea" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; display: flex;">
+                <ui:Label text=" ItemGeneralArea" display-tooltip-when-elided="true" style="background-color: rgb(26, 26, 26);" />
+                <ui:VisualElement>
+                    <uie:EnumField label="ItemType" value="Center" name="ItemTypeField" />
+                    <uie:IntegerField label="BuyPrice" value="42" name="BuyPriceField" />
+                    <uie:IntegerField label="SellPrice" value="42" name="SellPriceField" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="EquipmentInfoArea" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); display: flex;">
+                <ui:Label text=" EquipmentInfo" display-tooltip-when-elided="true" style="background-color: rgb(26, 26, 26);" />
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0;">
+                    <uie:IntegerField label="Power" value="42" name="EquipmentPowerField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="HitRate" value="42" name="EquipmentHitRateField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="Defense" value="42" name="EquipmentDefenseField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="Speed" value="42" name="EquipmentSpeedField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="Magic" value="42" name="EquipmentMagicField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="Avoid" value="42" name="EquipmentAvoidField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="MagicDefense" value="42" name="EquipmentMagicDefenseField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="VMove" value="42" name="EquipmentVMoveField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="HMove" value="42" name="EquipmentHMoveField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="Lucky" value="42" name="EquipmentLuckyField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="Critical" value="42" focusable="false" name="EquipmentCriticalField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="FireResistance" value="42" name="EquipmentFireResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="IceResistance" value="42" name="EquipmentIceResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="WindResistance" value="42" focusable="false" name="EquipmentWindResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="ThunderResistance" value="42" name="EquipmentThunderResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="LightResistance" value="42" name="EquipmentLightResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="DarkResistance" value="42" focusable="false" name="EquipmentDarkResistanceField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="WeaponInfoArea" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; display: flex;">
+                <ui:Label text=" WeaponInfo" display-tooltip-when-elided="true" style="background-color: rgb(26, 26, 26);" />
+                <uie:ObjectField label="ActiveSkill" name="WeaponActiveSkillField" />
+            </ui:VisualElement>
+            <ui:VisualElement name="BaseDataInfoArea" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; display: none;">
+                <ui:Label text=" BaseData" display-tooltip-when-elided="true" style="background-color: rgb(26, 26, 26);" />
+                <uie:EnumField label="ActionType" value="Center" name="ActionTypeField" />
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="Power" value="42" name="PowerDataField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="HitRate" value="42" focusable="false" name="HitRateDataField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="Critical" value="42" name="CriticalDataField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="HMinRange" value="42" name="HMinRangeField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="HMaxRange" value="42" focusable="false" name="HMaxRangeField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 0; margin-top: 3px;">
+                    <uie:IntegerField label="VMinRange" value="42" name="VMinRangeField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                    <uie:IntegerField label="VMaxRange" value="42" focusable="false" name="VMaxRangeField" style="flex-shrink: 1; flex-grow: 1; margin-left: 5px; margin-right: 5px;" />
+                </ui:VisualElement>
+                <ui:TextField picking-mode="Ignore" label="AnimName" value="filler text" text="filler text" name="AnimNameField" />
+                <uie:EnumField label="TargetBaseType" value="Center" name="TargetBaseTypeField" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

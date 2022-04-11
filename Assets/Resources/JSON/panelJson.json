@@ -1,0 +1,104 @@
+
+
+[
+  {
+    "UIPanelType": "PieceInformationUI",
+    "path": "UI/PieceInformationUI"
+  },
+  {
+    "UIPanelType": "PieceQueueUI",
+    "path": "UI/PieceQueueUI"
+  },
+  {
+    "UIPanelType": "PieceActionUI",
+    "path": "UI/PieceActionUI"
+  },
+  {
+    "UIPanelType": "BattleReadyUI",
+    "path": "UI/BattleReadyUI"
+  },
+  {
+    "UIPanelType": "ItemBagUI",
+    "path": "UI/ItemBagUI"
+  },
+  {
+    "UIPanelType": "BattleUI",
+    "path": "UI/BattleUI"
+  },
+  {
+    "UIPanelType": "PassiveSkillShowUI",
+    "path": "UI/PassiveSkillShowUI"
+  },
+  {
+    "UIPanelType": "CombatantNumUI",
+    "path": "UI/CombatantNumUI"
+  },
+  {
+    "UIPanelType": "ItemShopUI",
+    "path": "UI/ItemShopUI"
+  },
+  {
+    "UIPanelType": "ItemShopSellUI",
+    "path": "UI/ItemShopSellUI"
+  },
+  {
+    "UIPanelType": "ItemShopBuyUI",
+    "path": "UI/ItemShopBuyUI"
+  },
+  {
+    "UIPanelType": "CheckBuyNumUI",
+    "path": "UI/CheckBuyNumUI"
+  },
+  {
+    "UIPanelType": "CheckSellNumUI",
+    "path": "UI/CheckSellNumUI"
+  },
+  {
+    "UIPanelType": "SystemActionUI",
+    "path": "UI/SystemActionUI"
+  },
+  {
+    "UIPanelType": "SaveUI",
+    "path": "UI/SaveUI"
+  },
+  {
+    "UIPanelType": "LoadUI",
+    "path": "UI/LoadUI"
+  },
+  {
+    "UIPanelType": "GetSkillUI",
+    "path": "UI/GetSkillUI"
+  },
+  {
+    "UIPanelType": "VictoriesUI",
+    "path": "UI/VictoriesUI"
+  },
+  {
+    "UIPanelType": "StartGameUI",
+    "path": "UI/StartGameUI"
+  },
+  {
+    "UIPanelType": "LearningWindowUI",
+    "path": "UI/LearningWindowUI"
+  },
+  {
+    "UIPanelType": "LearningUI",
+    "path": "UI/LearningUI"
+  },
+  {
+    "UIPanelType": "BriefInfoUI",
+    "path": "UI/BriefInfoUI"
+  },
+  {
+    "UIPanelType": "SimpleCheckWindowUI",
+    "path": "UI/SimpleCheckWindowUI"
+  },
+  {
+    "UIPanelType": "PersuadeWindowUI",
+    "path": "UI/PersuadeWindowUI"
+  },
+  {
+    "UIPanelType": "BriefIntelligenceUI",
+    "path": "UI/BriefIntelligenceUI"
+  }
+]

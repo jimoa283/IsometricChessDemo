@@ -1,0 +1,55 @@
+[
+  {
+    "Level": 11,
+    "ID": 1,
+    "PosX": -5,
+    "PosY": 0.5,
+    "PlaceName": "桑德谷要塞",
+    "EventInfo": "格林布鲁克沦陷德消息也传到了远方的盐铁大战激战之地——#圣海桑德大教国的桑德谷要塞。",
+    "PlaceInfo": "圣海桑德大教国",
+    "SpritePath": "Flag1",
+    "LevelEventType": "Side",
+    "LevelEventActionType": "Simple",
+    "SceneName": "BattleScene1"
+  },
+  {
+    "Level": 11,
+    "ID": 2,
+    "PosX": 0,
+    "PosY": 0,
+    "PlaceName": "白洲城",
+    "EventInfo": "公国要员成为新的统治者#入主格林布鲁克王宫白洲城。",
+    "PlaceInfo": "格林布鲁克王国#王都",
+    "SpritePath": "Flag2",
+    "LevelEventType": "Main",
+    "LevelEventActionType": "Simple",
+    "SceneName": "BattleScene1"
+  },
+  {
+    "Level": 11,
+    "ID": 3,
+    "PosX": 4.5,
+    "PosY": -1,
+    "PlaceName": "沃荷德领地",
+    "EventInfo": "一位格林布鲁克青年造访瑟雷诺亚等人的驻扎地#似乎有什么事……",
+    "PlaceInfo": "格林布鲁克王国#<size=11>沃荷德领地</size>",
+    "SpritePath": "Flag3",
+    "LevelEventType": "Side",
+    "LevelEventActionType": "Simple",
+    "SceneName": "PlayerCamp1"
+  },
+  {
+    "Level": 12,
+    "ID": 4,
+    "PosX": 0,
+    "PosY": 0,
+    "PlaceName": "白洲城",
+    "EventInfo": "公国要员成为新的统治者#入主格林布鲁克王宫白洲城。",
+    "PlaceInfo": "格林布鲁克王国#王都",
+    "SpritePath": "Flag2",
+    "LevelEventType": "Main",
+    "LevelEventActionType": "Battle",
+    "SceneName": "BattleScene1"
+  }
+  
+]

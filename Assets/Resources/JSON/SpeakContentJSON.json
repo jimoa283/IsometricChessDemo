@@ -1,0 +1,94 @@
+[
+  {
+    "ID": "1-1",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": " 事到如今，已经没什么好犹豫的了。该# 下定决心了。",
+    "NextSpeakIndex": "1-2",
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "1-2",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": " 我真的不知道为什么哥哥会这么做，但# 他的所作所为都不能原谅。",
+    "NextSpeakIndex": "1-3",
+    "SpeakDataType": "ShowIntroduceSpeak",
+    "PieceIntroduceName": "芙蕾德丽卡"
+  },
+  {
+    "ID": "1-3",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": " 你的选择是？",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SelectAnswerSpeak",
+    "SelectAnswerList": [
+      {
+        "Answer": "我觉得这事有蹊跷",
+        "NextSpeakIndex": "1-3(1)-1",
+        "IsLock": true,
+        "LockType": "Intelligence",
+        "InformationID": 1
+      },
+      {
+        "Answer": "该立刻去攻打他",
+        "NextSpeakIndex": "1-3(2)-1",
+        "IsLock": false,
+        "LockType": "Null"
+      },
+      {
+        "Answer": "要不还是先谈谈吧",
+        "NextSpeakIndex": "1-3(3)-1",
+        "IsLock": false,
+        "LockType": "Null"
+      }
+    ]
+  },
+  {
+    "ID": "1-3(1)-1",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": "你说的有道理",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "1-3(2)-1",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": "我明白了，现在就去准备",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "1-3(3)-1",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": "到现在了还谈什么",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "1-4",
+    "SpeakerName": "Li",
+    "SpeakContent": "谢谢殿下的解答。",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "2-1",
+    "SpeakerName": "商人",
+    "SpeakContent": "欢迎光临，刚进不少新货",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "3-1",
+    "SpeakerName": "芙蕾德丽卡",
+    "SpeakContent": "我真的不知道为什么哥哥会这么做，# 这样以后还会发生什么啊……",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  },
+  {
+    "ID": "4-1",
+    "SpeakerName": "罗莉",
+    "SpeakContent": "当务之急是保全公主的婚事，#希望阁下不要怪罪她。",
+    "NextSpeakIndex": null,
+    "SpeakDataType": "SimpleSpeak"
+  }
+]

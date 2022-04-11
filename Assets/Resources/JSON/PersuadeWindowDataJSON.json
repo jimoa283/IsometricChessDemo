@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "芙蕾德丽卡说服1",
+    "PieceName": "芙蕾德丽卡",
+    "PieceSpeakInfoShow": "我不希望#用某些人的牺牲去换取和平。",
+    "PieceImagePath": "P1",
+    "AttitudeType": "Against",
+    "ButtonTextList": [ "应该交出罗兰" ],
+    "PersuadeLevelList": [2]
+  }
+]
