@@ -83,11 +83,29 @@ public class PoolManager : Singleton<PoolManager>
     }
 
 
-
     public void ClearDic()
     {
         GameObject.Destroy(poolObj);
         poolObj = null;
         prefabDic.Clear();
+    }
+
+    /// <summary>
+    /// 预热
+    /// </summary>
+    /// <param name="PrefabName"></param>
+    /// <param name="num"></param>
+    public void Prewarm(string PrefabName,int num)
+    {
+        List<GameObject> Tmp = new List<GameObject>(num);
+        for(int i=0;i<num;++i)
+        {
+            Tmp[i] = GetObj(PrefabName);
+        }
+
+        for(int i=0;i<num;++i)
+        {
+            PushObj(PrefabName, Tmp[i]);
+        }
     }
 }
